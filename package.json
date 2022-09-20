@@ -1,0 +1,21 @@
+{
+  "name": "discord-bots",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lpbayliss/discord-bots.git",
+  "author": "Luke Bayliss <lukepbayliss@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "turbo": "^1.4.7"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
